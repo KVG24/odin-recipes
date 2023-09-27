@@ -25,7 +25,6 @@ li,
 a {
     text-decoration: none;
     list-style-type: none;
-    color: black;
 }
 
 a {
@@ -40,7 +39,7 @@ li {
     margin: 10px auto;
     padding: 5px;
     font-weight: 900;
-    background: #020202;
+    background: #092d6e;
 
 }
 
@@ -57,11 +56,13 @@ h2 {
     width: 900px;
     height: 300px;
     margin: 0 auto;
+    overflow: auto;
 }
 
 img {
-    width: auto;
-    height: 190px;
+    float: left;
+    height: 200px;
+    width: 250px;
     margin: 20px;
     border: 5px solid rgb(248, 218, 45);
     border-radius: 50px;
