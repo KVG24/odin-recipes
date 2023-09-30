@@ -8,29 +8,47 @@
 </head>
 <body>
     <div class="container">
-        <h1>Odin Recipes</h1>
-        <h2>Try this three recipes:</h2>
-        <ul>
-            <li><a href="./recipes/lasanga/lasagna.html">Lasagna Recipe</a></li>
-            <li><a href="./recipes/chicken/chicken.html">Spanish Chorizo Stuffed Chicken Breast Recipe</a></li>
-            <li><a href="./recipes/salmon/salmon.html">Bourbon Teriyaki Salmon Rice Bowl Recipe</a></li>
-        </ul>
-    </div>
-    <div class="img-container">
-        <a href="./recipes/lasanga/lasagna.html"><img src="images/lasagna.jpg" alt="Image of tasty lasagna"></a>
-        <a href="./recipes/chicken/chicken.html"><img src="images/chicken.jpg" alt="Image of beautiful chicken"></a>
-        <a href="./recipes/salmon/salmon.html"><img src="images/salmon.jpg" alt="Image of crispy salmon"></a>
-    </div>
-    <footer>
+        <div class="menu">
+            <h1>Odin Recipes</h1>
+            <h2>Try this three recipes:</h2>
+            <ul>
+                <li><a class="btn" href="./recipes/lasanga/lasagna.html"><div class="menu-item">Lasagna Recipe</div></a></li>
+                <li><a class="btn" href="./recipes/chicken/chicken.html"><div class="menu-item">Spanish Chorizo Stuffed Chicken Breast Recipe</div></a></li>
+                <li><a class="btn" href="./recipes/salmon/salmon.html"><div class="menu-item">Bourbon Teriyaki Salmon Rice Bowl Recipe</div></a></li>
+            </ul>
+        </div>
+        <div class="img-container">
+            <div class="img-hover">
+                <img src="images/lasagna.jpg" class="image" alt="Image of tasty lasagna">
+                <div class="middle">
+                    <div class="text"><a href="./recipes/lasanga/lasagna.html">Lasagna</a></div>
+                  </div>
+            </div>
+            <div class="img-hover">
+                <img src="images/chicken.jpg" class="image" alt="Image of beautiful chicken">
+                <div class="middle">
+                    <div class="text"><a href="./recipes/chicken/chicken.html">Chicken</a></div>
+                  </div>
+            </div>
+            <div class="img-hover">
+                <img src="images/salmon.jpg" class="image" alt="Image of crispy salmon">
+                <div class="middle">
+                    <div class="text"><a href="./recipes/salmon/salmon.html">Salmon</a></div>
+                  </div>
+            </div>
+        </div>
         <div class="footer">
-            <p>Recipes Project by KVG24</p>
-            <p>for The Odin Project</p>
+            <div class="about">
+                <p>Recipes Project by KVG24</p>
+                <p>for The Odin Project</p>
+                <p><em>The images may not correspond to the dishes in the recipes</em></p>
+            </div>
+            <div class="credits">Images by:
+                <p>Lasagna - Hansuan_Fabregas</p>
+                <p>Salmon - Jo del Corro</p>
+                <p>Chicken - mygraphx</p>
+            </div>
         </div>
-        <div class="credits">Images by: 
-            <p>Lasagna - Hansuan_Fabregas</p>
-            <p>Salmon - Jo del Corro</p>
-            <p>Chicken - mygraphx</p>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>
