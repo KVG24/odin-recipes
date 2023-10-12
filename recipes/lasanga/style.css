@@ -1,6 +1,15 @@
+div {
+    border: 2px solid rgba(251, 255, 0, 0.4);
+    border-radius: 10px;
+}
+
 body {
     background: #1d1a3f;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 h1,
@@ -8,42 +17,57 @@ h2,
 h3,
 p {
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 p {
-    display: block;
-    width: 500px;
     margin: 0 auto;
+    font-family: 'Lato', sans-serif;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
-    border: 5px solid rgb(255, 217, 0);
+    max-width: 400px;
+    height: auto;
+    border: 1px solid rgb(255, 217, 0);
     border-radius: 25px;
+    margin-bottom: 10px;
 }
 
 ul {
-    display: block;
-    width: 500px;
     margin: 0 auto;
 }
 
 ul > li {
     margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
 }
 
 ol {
-    display: block;
-    width: 500px;
     margin: 0 auto;
 }
 
 ol > li {
     margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
-a {
-    text-decoration: underline;
-    color: rgb(255, 196, 0);
+.header {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc {
+    width: 300px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.ingr {
+
+}
+
+.steps {
+    width: 1200px;
 }
